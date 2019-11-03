@@ -77,37 +77,37 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsN-N9-XRe" userLabel="Tweet Content">
-                                            <rect key="frame" x="102" y="29" width="212" height="59"/>
+                                            <rect key="frame" x="102" y="45" width="212" height="65"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nc-AP-0RT" userLabel="Name">
-                                            <rect key="frame" x="102" y="11" width="42.5" height="18"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nc-AP-0RT" userLabel="Name">
+                                            <rect key="frame" x="102" y="19" width="64" height="24"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="top" secondItem="5nc-AP-0RT" secondAttribute="bottom" id="0fv-m0-cuK"/>
+                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="top" secondItem="5nc-AP-0RT" secondAttribute="bottom" constant="8" id="0fv-m0-cuK"/>
                                         <constraint firstItem="JJT-PP-OEJ" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="G4X-aE-ihr"/>
                                         <constraint firstItem="JJT-PP-OEJ" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="Ke9-YQ-Y3D"/>
                                         <constraint firstItem="JJT-PP-OEJ" firstAttribute="leading" secondItem="FE1-Lf-i4A" secondAttribute="leadingMargin" id="PP7-mf-mUg"/>
                                         <constraint firstItem="JJT-PP-OEJ" firstAttribute="leading" secondItem="FE1-Lf-i4A" secondAttribute="leadingMargin" id="QOg-sK-KL7"/>
-                                        <constraint firstItem="5nc-AP-0RT" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="VVS-4k-U7N"/>
+                                        <constraint firstItem="5nc-AP-0RT" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" constant="8" id="VVS-4k-U7N"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5nc-AP-0RT" secondAttribute="trailing" constant="20" symbolic="YES" id="X9o-Dm-Uzu"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="JJT-PP-OEJ" secondAttribute="trailing" constant="277" id="bj6-Yn-LIw"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="jsN-N9-XRe" secondAttribute="trailing" constant="45" id="cYD-DL-Hkq"/>
                                         <constraint firstItem="jsN-N9-XRe" firstAttribute="trailing" secondItem="FE1-Lf-i4A" secondAttribute="trailingMargin" constant="-45" id="gIn-bQ-Gt2"/>
                                         <constraint firstItem="JJT-PP-OEJ" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="gJ0-1R-daI"/>
-                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="top" secondItem="5nc-AP-0RT" secondAttribute="bottom" id="ha5-XH-dGa"/>
+                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="top" secondItem="5nc-AP-0RT" secondAttribute="bottom" constant="8" id="ha5-XH-dGa"/>
                                         <constraint firstItem="jsN-N9-XRe" firstAttribute="leading" secondItem="JJT-PP-OEJ" secondAttribute="trailing" constant="20" id="hjv-PJ-aEV"/>
                                         <constraint firstItem="JJT-PP-OEJ" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="l9b-AN-gFb"/>
-                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="bottom" secondItem="FE1-Lf-i4A" secondAttribute="bottomMargin" constant="-22" id="lRl-Av-FlT"/>
+                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="bottom" secondItem="FE1-Lf-i4A" secondAttribute="bottomMargin" id="lRl-Av-FlT"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="JJT-PP-OEJ" secondAttribute="bottom" constant="35" id="q8e-ju-AJG"/>
                                         <constraint firstItem="5nc-AP-0RT" firstAttribute="leading" secondItem="JJT-PP-OEJ" secondAttribute="trailing" constant="20" id="vSS-NE-6Jg"/>
-                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="bottom" secondItem="FE1-Lf-i4A" secondAttribute="bottomMargin" constant="-22" id="zMM-t0-GcC"/>
+                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="bottom" secondItem="FE1-Lf-i4A" secondAttribute="bottomMargin" id="zMM-t0-GcC"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
