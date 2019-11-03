@@ -34,7 +34,7 @@ The following **bonus** features are implemented:
 - [X] User can view tweets with the user profile picture, username, and tweet text. (6pts)
 
 #### BONUS
-- [ ] User can pull to refresh. (1pt)
+- [X] User can pull to refresh. (1pt)
 - [ ] User can load past tweets infinitely. (2pts)
 
 ### App Walkthough GIF
