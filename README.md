@@ -1,10 +1,8 @@
 # Twitter Remake
 
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+This is a basic twitter app to view, compose, favorite, and retweet tweets, using the [Twitter API](https://developer.twitter.com/en/docs).
 
 # Twitter - Part II
-
-This is a basic twitter app to view, compose, favorite, and retweet tweets.
 
 Time spent: **X** hours spent in total
 
