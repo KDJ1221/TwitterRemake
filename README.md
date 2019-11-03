@@ -22,11 +22,7 @@ The following **bonus** features are implemented:
 - [ ] User can view their profile in a profile tab. (3pts)
 - [ ] User sees embedded images in tweet if available. (3pts)
 
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+## App Walkthrough GIF
 ---
 
 ## Twitter Part I
