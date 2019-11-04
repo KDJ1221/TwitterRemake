@@ -38,6 +38,6 @@ The following **bonus** features are implemented:
 - [X] User can load past tweets infinitely. (2pts)
 
 ### App Walkthough GIF
-![](twitter1.gif)
+![](twitter2.gif)
 
 ### Notes
