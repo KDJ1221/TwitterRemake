@@ -64,20 +64,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JJT-PP-OEJ">
-                                            <rect key="frame" x="16" y="11" width="78" height="86"/>
+                                            <rect key="frame" x="16" y="11" width="78" height="81"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="78" id="3Vm-Sh-Tfq"/>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="7GX-nj-CiL"/>
-                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="81" id="Plu-6o-kLO"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="cwk-S4-1z5"/>
-                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="81" id="jNj-yv-WWe"/>
-                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="78" id="jpO-25-1Ja"/>
                                                 <constraint firstAttribute="height" constant="81" id="l97-Yy-oqS"/>
                                                 <constraint firstAttribute="width" constant="78" id="p9O-el-bmp"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsN-N9-XRe" userLabel="Tweet Content">
-                                            <rect key="frame" x="102" y="68" width="212" height="14.5"/>
+                                            <rect key="frame" x="102" y="37" width="212" height="14.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -95,35 +89,27 @@
                                             <state key="normal" image="retweet-icon"/>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nc-AP-0RT" userLabel="Name">
-                                            <rect key="frame" x="102" y="36" width="42.5" height="24"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="24" id="Q3B-bj-kc5"/>
-                                            </constraints>
+                                            <rect key="frame" x="102" y="11" width="42.5" height="18"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="yvs-ze-ipe" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jsN-N9-XRe" secondAttribute="bottom" constant="8" id="0U0-W5-47G"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5nc-AP-0RT" secondAttribute="trailing" constant="20" symbolic="YES" id="6kY-mC-meg"/>
-                                        <constraint firstItem="JJT-PP-OEJ" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="G4X-aE-ihr"/>
-                                        <constraint firstItem="wM6-Dn-Yix" firstAttribute="top" secondItem="jsN-N9-XRe" secondAttribute="bottom" constant="26.5" id="Gba-Ea-Hq1"/>
-                                        <constraint firstItem="JJT-PP-OEJ" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="Ke9-YQ-Y3D"/>
                                         <constraint firstItem="5nc-AP-0RT" firstAttribute="leading" secondItem="jsN-N9-XRe" secondAttribute="leading" id="MXW-7y-kR3"/>
                                         <constraint firstItem="jsN-N9-XRe" firstAttribute="top" secondItem="5nc-AP-0RT" secondAttribute="bottom" constant="8" id="NVb-nK-BW2"/>
-                                        <constraint firstItem="JJT-PP-OEJ" firstAttribute="leading" secondItem="FE1-Lf-i4A" secondAttribute="leadingMargin" id="PP7-mf-mUg"/>
                                         <constraint firstItem="JJT-PP-OEJ" firstAttribute="leading" secondItem="FE1-Lf-i4A" secondAttribute="leadingMargin" id="QOg-sK-KL7"/>
                                         <constraint firstItem="wM6-Dn-Yix" firstAttribute="bottom" secondItem="FE1-Lf-i4A" secondAttribute="bottomMargin" id="beF-A1-85C"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="JJT-PP-OEJ" secondAttribute="trailing" constant="265" id="bj6-Yn-LIw"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="jsN-N9-XRe" secondAttribute="trailing" constant="45" id="cYD-DL-Hkq"/>
-                                        <constraint firstItem="jsN-N9-XRe" firstAttribute="trailing" secondItem="FE1-Lf-i4A" secondAttribute="trailingMargin" constant="-45" id="gIn-bQ-Gt2"/>
-                                        <constraint firstItem="JJT-PP-OEJ" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="gJ0-1R-daI"/>
                                         <constraint firstItem="yvs-ze-ipe" firstAttribute="top" secondItem="wM6-Dn-Yix" secondAttribute="top" id="goK-Oo-eCv"/>
                                         <constraint firstItem="jsN-N9-XRe" firstAttribute="leading" secondItem="JJT-PP-OEJ" secondAttribute="trailing" constant="8" id="hjv-PJ-aEV"/>
                                         <constraint firstItem="wM6-Dn-Yix" firstAttribute="leading" secondItem="yvs-ze-ipe" secondAttribute="trailing" constant="24" id="knl-cU-N1d"/>
                                         <constraint firstItem="JJT-PP-OEJ" firstAttribute="top" secondItem="FE1-Lf-i4A" secondAttribute="topMargin" id="l9b-AN-gFb"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="JJT-PP-OEJ" secondAttribute="bottom" constant="42" id="q8e-ju-AJG"/>
+                                        <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="JJT-PP-OEJ" secondAttribute="bottom" constant="42" id="q8e-ju-AJG"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="wM6-Dn-Yix" secondAttribute="trailing" constant="7" id="uDB-oL-skK"/>
+                                        <constraint firstItem="5nc-AP-0RT" firstAttribute="top" secondItem="JJT-PP-OEJ" secondAttribute="top" id="vk8-6B-7gj"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
