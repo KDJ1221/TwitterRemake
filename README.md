@@ -20,8 +20,8 @@ The following **bonus** features are implemented:
 - [ ] User can view their profile in a profile tab. (3pts)
 - [ ] User sees embedded images in tweet if available. (3pts)
 
-## App Walkthrough GIF
----
+### App Walkthrough GIF
+![](twitter3.gif)
 
 ## Twitter Part I
 
